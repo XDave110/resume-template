@@ -69,20 +69,16 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Tim Baker.`,
+  name: `I'm David Paredes.`,
   description: (
     <>
-      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
-      </p>
-      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
-      </p>
-    </>
+    <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
+      I'm a <strong className="text-stone-100">Software Engineering student</strong> in my ninth semester. With a strong passion for web development, whether it's in the <strong className="text-stone-100">Front-End</strong> or <strong className="text-stone-100">Back-End</strong> domains. I'm well-versed in various programming languages, including <strong className="text-stone-100">Java</strong>, <strong className="text-stone-100">Python</strong>, <strong className="text-stone-100">PHP</strong>, <strong className="text-stone-100">JavaScript</strong>, and <strong className="text-stone-100">TypeScript</strong>, along with frameworks like <strong className="text-stone-100">Angular</strong> and <strong className="text-stone-100">Laravel</strong>.
+    </p>
+    <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
+      When I'm not immersed in the world of software, you'll find me indulging in my love for entertainment. I'm a devoted movie enthusiast, an follower of anime, and a passionate reader.
+    </p>
+  </>
   ),
   actions: [
     {
@@ -104,16 +100,13 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `I'm David Paredes, a Software Engineering student, with a strong inclination towards Back-End development. Proficient in programming languages like Java, Python, PHP, JavaScript, and TypeScript, I'm also well-versed in frameworks such as Angular and Laravel.`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Location', text: 'Merida, YUC.', Icon: MapIcon},
+    {label: 'Age', text: '24.', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'Mexican.', Icon: FlagIcon},
+    {label: 'Interests', text: 'Movies, Anime, Technology, Games.', Icon: SparklesIcon},
+    {label: 'Study', text: 'Faculty of Mathematics UADY.', Icon: AcademicCapIcon},
   ],
 };
 
@@ -125,16 +118,12 @@ export const skills: SkillGroup[] = [
     name: 'Spoken languages',
     skills: [
       {
-        name: 'English',
+        name: 'Spanish',
         level: 10,
       },
       {
-        name: 'French',
-        level: 4,
-      },
-      {
-        name: 'Spanish',
-        level: 3,
+        name: 'English',
+        level: 7,
       },
     ],
   },
@@ -142,16 +131,16 @@ export const skills: SkillGroup[] = [
     name: 'Frontend development',
     skills: [
       {
-        name: 'React',
+        name: 'HTML',
         level: 9,
       },
       {
-        name: 'Typescript',
-        level: 7,
+        name: 'TypeScript',
+        level: 8,
       },
       {
-        name: 'GraphQL',
-        level: 6,
+        name: 'javaScript',
+        level: 7,
       },
     ],
   },
@@ -159,33 +148,16 @@ export const skills: SkillGroup[] = [
     name: 'Backend development',
     skills: [
       {
-        name: 'Node.js',
+        name: 'PHP',
         level: 8,
       },
       {
-        name: 'Rust',
+        name: 'Java',
+        level: 7,
+      },
+      {
+        name: 'python',
         level: 5,
-      },
-      {
-        name: 'Golang',
-        level: 4,
-      },
-    ],
-  },
-  {
-    name: 'Mobile development',
-    skills: [
-      {
-        name: 'React Native',
-        level: 9,
-      },
-      {
-        name: 'Flutter',
-        level: 4,
-      },
-      {
-        name: 'Swift',
-        level: 3,
       },
     ],
   },
@@ -196,70 +168,28 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'APIS - The Book Store',
+    description: 'Es un proyecto desarrollado con Spring Boot que ofrece una solución completa para gestionar una tienda de libros en línea.',
+    url: '',
     image: porfolioImage1,
   },
   {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Blog Personal',
+    description: 'Un blog personal simple creado con tecnologías de Front-End y Back-End para compartir pensamientos y experiencias.',
+    url: '',
     image: porfolioImage2,
   },
   {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Sistema de Gestión de Tareas',
+    description: 'Una aplicación web que permite a los usuarios organizar y realizar un seguimiento de sus tareas y proyectos diarios.',
+    url: '',
     image: porfolioImage3,
   },
   {
-    title: 'Project title 4',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Juego de Adivinanza de Números',
+    description: 'Un juego simple de adivinanza de números en el que los jugadores intentan adivinar un número aleatorio dentro de un rango específico.',
+    url: '',
     image: porfolioImage4,
-  },
-  {
-    title: 'Project title 5',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage5,
-  },
-  {
-    title: 'Project title 6',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage6,
-  },
-  {
-    title: 'Project title 7',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage7,
-  },
-  {
-    title: 'Project title 8',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage8,
-  },
-  {
-    title: 'Project title 9',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage9,
-  },
-  {
-    title: 'Project title 10',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage10,
-  },
-  {
-    title: 'Project title 11',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage11,
   },
 ];
 
@@ -268,17 +198,12 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'December 2023',
+    location: 'Faculty of Mathematics',
+    title: 'Bachelor in Software Engineering',
+    content: <p>During my time at the Faculty of Mathematics, I acquired a deep understanding of software engineering principles, honed my programming skills in various languages, and gained practical experience in developing software solutions. This education has equipped me with the knowledge and skills needed to excel in the field.</p>,
   },
-  {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
-  },
+
 ];
 
 export const experience: TimelineItem[] = [
@@ -336,27 +261,22 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  description: '',
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'davidparedes01023@gmail.com',
+      href: 'mailto:davidparedes01023@gmail.com',
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
-    },
-    {
-      type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
+      text: 'Merida YUC, Mexico',
+      href: '',
     },
     {
       type: ContactType.Github,
-      text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      text: 'XDave110',
+      href: 'https://github.com/XDave110',
     },
   ],
 };
@@ -365,9 +285,7 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/reactresume/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/XDave110'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/david-paredes-60583b28b/'},
+  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/XDave110'},
 ];
