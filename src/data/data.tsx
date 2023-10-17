@@ -76,7 +76,7 @@ export const heroData: Hero = {
       I'm a <strong className="text-stone-100">Software Engineering student</strong> in my ninth semester. With a strong passion for web development, whether it's in the <strong className="text-stone-100">Front-End</strong> or <strong className="text-stone-100">Back-End</strong> domains. I'm well-versed in various programming languages, including <strong className="text-stone-100">Java</strong>, <strong className="text-stone-100">Python</strong>, <strong className="text-stone-100">PHP</strong>, <strong className="text-stone-100">JavaScript</strong>, and <strong className="text-stone-100">TypeScript</strong>, along with frameworks like <strong className="text-stone-100">Angular</strong> and <strong className="text-stone-100">Laravel</strong>.
     </p>
     <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-      When I'm not immersed in the world of software, you'll find me indulging in my love for entertainment. I'm a devoted movie enthusiast, an follower of anime, and a passionate reader.
+      When I'm not immersed in the world of software, you'll find me indulging in my love for entertainment. I'm a devoted movie enthusiast, and follower of anime.
     </p>
   </>
   ),
@@ -100,7 +100,7 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `I'm David Paredes, a Software Engineering student, with a strong inclination towards Back-End development. Proficient in programming languages like Java, Python, PHP, JavaScript, and TypeScript, I'm also well-versed in frameworks such as Angular and Laravel.`,
+  description: `I'm David Paredes, a Software Engineering , with a strong inclination towards Back-End development. Proficient in programming languages like Java, Python, PHP, JavaScript, and TypeScript, I'm also well-versed in frameworks such as Angular and Laravel.`,
   aboutItems: [
     {label: 'Location', text: 'Merida, YUC.', Icon: MapIcon},
     {label: 'Age', text: '24.', Icon: CalendarIcon},
@@ -261,7 +261,7 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: '',
+  description: 'If you had like to learn more about my skills, experience, or projects, feel free to contact me.',
   items: [
     {
       type: ContactType.Email,
